@@ -8,6 +8,7 @@ namespace Singleton
         {
             var customerManager = CustomerManager.CreateAsSingleton();
             customerManager.Save();
+            Console.WriteLine("");
         }
     }
 
