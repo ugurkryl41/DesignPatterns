@@ -8,6 +8,7 @@ namespace FactoryMethod
         {
             CustomerManager customerManager = new CustomerManager(new LoggerFactory());
             customerManager.Save();
+            Console.WriteLine("");
         }
     }
 
